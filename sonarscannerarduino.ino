@@ -6,7 +6,7 @@
 
 void  setup()
 {
-  Serial.begin(9600);
+  Serial.begin(9700);
  
 }
 
@@ -22,6 +22,6 @@ void loop()
   Serial.print("Temperature  (C): ");
   Serial.println((float)DHT11.temperature, 2);
 
-  delay(2000);
+  delay(2500);
 
 }
